@@ -1,1 +1,1 @@
-Landing page Front. com tailwind css
+Landing page Front com tailwind css
