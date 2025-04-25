@@ -57,3 +57,16 @@ document.addEventListener('DOMContentLoaded', function () {
       },
     });
   });
+
+
+//   Modal de Imagens do Projeto
+  function toggleGalleryModal() {
+    const modal = document.getElementById('galleryModal');
+    modal.classList.toggle('hidden');
+  }
+
+//   Modal Csharp
+function toggleModal(show) {
+    const modal = document.getElementById('modal');
+    modal.classList.toggle('hidden', !show);
+  }
